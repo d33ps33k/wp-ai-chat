@@ -1,0 +1,314 @@
+# Copyright (C) 2025 d33ps33k
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: AI Chat Bot Agent D33PS33K 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ai-chat-bot-d33ps33k\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-01-14T04:37:16+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: ai-chat-bot-d33ps33k\n"
+
+#. Plugin Name of the plugin
+#: ai-chat-bot-d33ps33k.php
+msgid "AI Chat Bot Agent D33PS33K"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: ai-chat-bot-d33ps33k.php
+msgid "https://www.d33ps33k.com"
+msgstr ""
+
+#. Description of the plugin
+#: ai-chat-bot-d33ps33k.php
+msgid "A plugin to integrate a trainable AI chatbot agent into your WordPress site using a shortcode. The full version is available at d33ps33k.com"
+msgstr ""
+
+#. Author of the plugin
+#: ai-chat-bot-d33ps33k.php
+msgid "d33ps33k"
+msgstr ""
+
+#: ai-chat-bot-d33ps33k.php:56
+#: ai-chat-bot-d33ps33k.php:59
+msgid "An error occurred"
+msgstr ""
+
+#: ai-chat-bot-d33ps33k.php:57
+msgid "Error: Message exceeds 15000 character limit"
+msgstr ""
+
+#: ai-chat-bot-d33ps33k.php:58
+msgid "Error: Invalid message content"
+msgstr ""
+
+#: ai-chat-bot-d33ps33k.php:60
+msgid "Unable to process your request"
+msgstr ""
+
+#: ai-chat-bot-d33ps33k.php:61
+msgid "Session expired, please refresh the page"
+msgstr ""
+
+#: ai-chat-bot-d33ps33k.php:136
+#: dsai-uninstall.php:103
+msgid "Uninstall failed: "
+msgstr ""
+
+#: includes/dsai-admin-settings.php:18
+#: includes/dsai-admin-settings.php:272
+msgid "D33PS33K Chatbot Settings"
+msgstr ""
+
+#: includes/dsai-admin-settings.php:19
+msgid "D33PS33K Chatbot"
+msgstr ""
+
+#: includes/dsai-admin-settings.php:45
+msgid "You are a helpful AI assistant."
+msgstr ""
+
+#: includes/dsai-admin-settings.php:64
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/dsai-admin-settings.php:70
+msgid "Uninstall Settings"
+msgstr ""
+
+#: includes/dsai-admin-settings.php:72
+msgid "Manage plugin uninstallation settings."
+msgstr ""
+
+#: includes/dsai-admin-settings.php:79
+msgid "Delete Settings on Uninstall"
+msgstr ""
+
+#: includes/dsai-admin-settings.php:88
+msgid "API Configurations"
+msgstr ""
+
+#: includes/dsai-admin-settings.php:90
+msgid "Configure API settings for the chatbot."
+msgstr ""
+
+#: includes/dsai-admin-settings.php:97
+msgid "API Key"
+msgstr ""
+
+#: includes/dsai-admin-settings.php:105
+msgid "API Endpoint"
+msgstr ""
+
+#: includes/dsai-admin-settings.php:114
+msgid "AI Model"
+msgstr ""
+
+#: includes/dsai-admin-settings.php:128
+msgid "Select which AI model to use for responses."
+msgstr ""
+
+#: includes/dsai-admin-settings.php:137
+msgid "System Role"
+msgstr ""
+
+#: includes/dsai-admin-settings.php:141
+msgid "Define the AI's system role and behavior (max 500 words). This helps guide how the AI responds to users."
+msgstr ""
+
+#. translators: %s: Link to upgrade page
+#: includes/dsai-admin-settings.php:145
+msgid "Want unlimited system role length? %s"
+msgstr ""
+
+#: includes/dsai-admin-settings.php:147
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: includes/dsai-admin-settings.php:150
+msgid "For video and image formatting, add this to your system role (without quotes): \"Embed video using html video tags and images using html image tags on a line by themself.\""
+msgstr ""
+
+#: includes/dsai-admin-settings.php:156
+msgid "Learn more here:"
+msgstr ""
+
+#: includes/dsai-admin-settings.php:160
+msgid "Current word count:"
+msgstr ""
+
+#: includes/dsai-admin-settings.php:169
+msgid "UI Options"
+msgstr ""
+
+#: includes/dsai-admin-settings.php:171
+msgid "Customize the chatbot's user interface."
+msgstr ""
+
+#: includes/dsai-admin-settings.php:178
+msgid "Chatbot Title"
+msgstr ""
+
+#: includes/dsai-admin-settings.php:180
+#: includes/dsai-shortcode-handler.php:18
+msgid "Chat with Us"
+msgstr ""
+
+#: includes/dsai-admin-settings.php:182
+msgid "Enter the title for the chatbot (e.g., \"Chat with Us\")."
+msgstr ""
+
+#: includes/dsai-admin-settings.php:190
+msgid "User Message Color"
+msgstr ""
+
+#: includes/dsai-admin-settings.php:194
+msgid "Choose the color for user messages."
+msgstr ""
+
+#: includes/dsai-admin-settings.php:202
+msgid "User Message Text Color"
+msgstr ""
+
+#: includes/dsai-admin-settings.php:206
+msgid "Choose the text color for user messages."
+msgstr ""
+
+#: includes/dsai-admin-settings.php:214
+msgid "Bot Message Color"
+msgstr ""
+
+#: includes/dsai-admin-settings.php:218
+msgid "Choose the color for bot messages."
+msgstr ""
+
+#: includes/dsai-admin-settings.php:226
+msgid "Bot Message Text Color"
+msgstr ""
+
+#: includes/dsai-admin-settings.php:230
+msgid "Choose the text color for bot messages."
+msgstr ""
+
+#: includes/dsai-admin-settings.php:238
+msgid "Input Placeholder Text"
+msgstr ""
+
+#: includes/dsai-admin-settings.php:240
+#: includes/dsai-shortcode-handler.php:24
+msgid "Type your message..."
+msgstr ""
+
+#: includes/dsai-admin-settings.php:242
+msgid "Enter the placeholder text for the input field."
+msgstr ""
+
+#: includes/dsai-admin-settings.php:250
+msgid "Opening Prompt"
+msgstr ""
+
+#: includes/dsai-admin-settings.php:254
+msgid "Define the opening prompt for the chatbot (e.g., \"Hello! How can I assist you today?\")."
+msgstr ""
+
+#: includes/dsai-admin-settings.php:274
+msgid "This plugin is designed to help you create a chatbot for your website. It uses the DeepSeek or OpenAI API to generate responses. For the D33PS33K Full Version. Visit "
+msgstr ""
+
+#: includes/dsai-admin-settings.php:276
+msgid "d33ps33k.com"
+msgstr ""
+
+#: includes/dsai-admin-settings.php:283
+msgid "Save Settings"
+msgstr ""
+
+#: includes/dsai-admin-settings.php:293
+msgid "Delete all settings when uninstalling the plugin"
+msgstr ""
+
+#: includes/dsai-admin-settings.php:294
+msgid "If checked, all plugin settings will be permanently deleted when the plugin is uninstalled."
+msgstr ""
+
+#: includes/dsai-admin-settings.php:300
+msgid "Enter your API key for the chatbot service. Need help? Visit D33pS33k.com for more information."
+msgstr ""
+
+#: includes/dsai-admin-settings.php:306
+msgid "Enter the API endpoint URL for the chatbot service. Typically, https://api.deepseek.com/chat/completions or https://api.openai.com/v1/chat/completions"
+msgstr ""
+
+#. translators: %d: The current word count
+#: includes/dsai-admin-settings.php:317
+msgid "System role cannot exceed 500 words. Current word count: %d"
+msgstr ""
+
+#: includes/dsai-ajax-handler.php:15
+msgid "Invalid request. Please refresh the page and try again."
+msgstr ""
+
+#. translators: %d: Maximum allowed message length in characters
+#: includes/dsai-ajax-handler.php:28
+msgid "Message exceeds maximum length of %d characters"
+msgstr ""
+
+#. translators: %s: Error message from API
+#: includes/dsai-ajax-handler.php:69
+msgid "Chatbot security check error: %s"
+msgstr ""
+
+#: includes/dsai-ajax-handler.php:74
+msgid "Security validation error"
+msgstr ""
+
+#: includes/dsai-ajax-handler.php:80
+msgid "Invalid message format"
+msgstr ""
+
+#: includes/dsai-ajax-handler.php:91
+msgid "API credentials not configured. Please check plugin settings."
+msgstr ""
+
+#. translators: %s: System role
+#: includes/dsai-ajax-handler.php:98
+msgid "Your response should be in the role of \"%s\" "
+msgstr ""
+
+#. translators: %s: Error message from API
+#: includes/dsai-ajax-handler.php:139
+msgid "AI Chatbot API Error: %s"
+msgstr ""
+
+#. translators: %s: Error message from API
+#: includes/dsai-ajax-handler.php:146
+msgid "API request failed: %s"
+msgstr ""
+
+#. translators: %s: Error message from API
+#: includes/dsai-ajax-handler.php:172
+msgid "AI Chatbot Invalid Response: %s"
+msgstr ""
+
+#. translators: %s: Error message from API
+#: includes/dsai-ajax-handler.php:180
+msgid "API Error: %s"
+msgstr ""
+
+#: includes/dsai-ajax-handler.php:186
+msgid "Invalid API response format. Please check your API configuration."
+msgstr ""
+
+#: includes/dsai-shortcode-handler.php:59
+msgid "Chatbot Icon"
+msgstr ""
+
+#: includes/dsai-shortcode-handler.php:70
+msgid "Send"
+msgstr ""
